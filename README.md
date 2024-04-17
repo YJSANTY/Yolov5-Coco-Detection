@@ -19,13 +19,15 @@ https://drive.google.com/file/d/1fgGgAeKOiH5qHR2wTkil205M2u1_eLZ4/view?usp=shari
 - OpenCV
 - YOLOv5 model weights and configuration files
 
-#Brief explanation of the process
+##Brief explanation of the process
 1. Download the zip code and unzip the file.
 2. Install the libraries mentioned above.
 3. Run the script in your Python IDE.
 4. It will start to run the code and automatically download the necessary files and the model from https://github.com/ultralytics/yolov5/releases
 5. The webcam will activate, and you will see bounding boxes around detected water bottles in the video stream.
 6. Press 'q' to exit the video stream.
+
+##Code Explanation
 Libraries: The script imports necessary libraries like torch, cv2, pandas, PIL, and requests.
 
 Loading YOLOv5 Model: Utilizes torch.hub.load() to load the pre-trained YOLOv5 model (yolov5x).
